@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quote of the Day</title>
+  <link rel="stylesheet" href="task1.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🌟 Quote of the Day</h1>
+      <p>Enter your name, select a mood, and receive a personalized quote.....</p>
+    </header>
+
+    <main>
+
+      <div class="input-section">
+        <input type="text" id="userName" placeholder="Enter your name" />
+        <select id="moodSelect">
+          <option value="">Select your mood</option>
+          <option value="happy">Happy 😊</option>
+          <option value="sad">Sad 😢</option>
+          <option value="motivated">Motivated 💪</option>
+          <option value="stressed">Stressed 😩</option>
+        </select>
+        <button onclick="generateMoodQuote()">Get My Quote</button>
+      </div>
+
+      <div class="quote-box">
+        <p id="quote-text">Your personalized quote will appear here.</p>
+        <button onclick="showAlert()">Click Me!</button>
+      </div>
+    </main>
+
+  <script src="task1.js"></script>
+</body>
+</html>
 
