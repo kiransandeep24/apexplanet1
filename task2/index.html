@@ -1,1 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Form & To-Do List</title>
+  <link rel="stylesheet" href="task2.css" />
+</head>
+<body>
+    <nav class="navbar">
+      <h1>My Web Project🧑‍💻🧑‍💻</h1>
+    </nav>
+  <div class="container">
+    <section class="contact-form">
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+        <p id="formMsg"></p>
+      </form>
+    </section>
+
+    <section class="todo-list">
+      <h2>To-Do List</h2>
+      <div class="todo-input">
+        <input type="text" id="todoInput" placeholder="Add a task..." />
+        <button id="addTodo">Add</button>
+      </div>
+      <ul id="todoItems"></ul>
+    </section>
+  </div>
+
+  <script src="task2.js"></script>
+</body>
+</html>
 
