@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz and Joke Generator</title>
+  <link rel="stylesheet" href="Task3.css">
+</head>
+<body>
+  <h1>Choose a Subject or Enjoy a Joke</h1>
+
+  <!-- Subject Flashcards -->
+  <div class="subjects">
+    <div class="card" data-subject="html">HTML</div>
+    <div class="card" data-subject="css">CSS</div>
+    <div class="card" data-subject="javascript">JavaScript</div>
+  </div>
+
+  <!-- Quiz Container -->
+  <div id="quizBox" class="quiz-container">
+    <div id="questionText" class="question"></div>
+    <div id="optionsList" class="options"></div>
+    <div id="result"></div>
+    <button id="back-btn">Go Back to Subjects</button>
+  </div>
+
+  <!-- Joke Generator -->
+  <div class="joke-generator">
+    <button id="get-joke">Get a Joke</button>
+    <p id="joke-output"></p>
+  </div>
+
+  <script src="Task3.js"></script>
+</body>
+</html>
