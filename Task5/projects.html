@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects</title>
+  <link rel="stylesheet" href="task5.css" />
+</head>
+<body>
+  <header>
+    <h1 style="font-family:'Times New Roman', Times, serif, sans-serif; font-size:xx-large; font-style:oblique; text-align: center;">My Projects</h1>
+    <nav>
+      <ul class="nav-links">
+      <li><button class="but1"><a href="task5.html">Home</a></button></li>
+      <li><button class="but2"><a href="about.html">About</a></button></li>
+      <li><button class="but3"><a href="projects.html">Projects</a></button></li>
+      <li><button class="but4"><a href="contact.html">Contact</a></button></li>
+      </ul>
+    </nav>
+    <button id="themeToggle" class="toggle-theme">🌙</button>
+  </header>
+
+  <section>
+    <h2 style="font-family:'Times New Roman', Times, serif, sans-serif; font-size:xx-large; font-style:oblique; text-align:center;">Project Gallery</h2>
+    <div class="filters">
+      <button onclick="filterProjects('all')">All</button>
+      <button onclick="filterProjects('web')">Web</button>
+      <button onclick="filterProjects('app')">App</button>
+    </div>
+    <div class="project-gallery">
+      <div class="project-card" data-category="web">
+        <h3 style="font-family:'Times New Roman', Times, serif, sans-serif; font-size:x-large; font-style:oblique; text-align: center;">To-Do App</h3>
+        <p style="font-family: Arial, Helvetica, sans-serif; font-size:x-large; font-style: italic;">A task management app built with JavaScript.</p>
+      </div>
+      <div class="project-card" data-category="web">
+        <h3 style="font-family:'Times New Roman', Times, serif, sans-serif; font-size:x-large; font-style:oblique; text-align: center;">Product Filter</h3>
+        <p style="font-family: Arial, Helvetica, sans-serif; font-size:x-large; font-style: italic;">A filtering UI for product lists using HTML, CSS, and JS.</p>
+      </div>
+      <div class="project-card" data-category="app">
+        <h3 style="font-family:'Times New Roman', Times, serif, sans-serif; font-size:x-large; font-style:oblique; text-align: center;">Weather App</h3>
+        <p style="font-family: Arial, Helvetica, sans-serif; font-size:x-large; font-style: italic;">Fetches live weather data from an API.</p>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <script src="task5.js"></script>
+</body>
+</html>
